@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Extructura de las páginas*/
+.container-xl{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 300px 300px 300PX;
+}
+/*Anuncio 1*/
+.fondo{
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-bottom: 10px ;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+/*Imagen del anuncio 1*/
+.fondo img{
+    height: 290px;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 75%;
+    border: 1px solid black;
+}
+/*Texto sobre el producto*/
+.testo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: black;
+    margin-top: 10px;
+}
+/*Boton de comprar*/
+.testo a{
+    text-decoration: none;
+    margin-top: 100% auto;
+}
+/*Descripcion del producto*/
+.testo p{
+    margin-right:10px ;
+}
+/*Anuncio 2*/
+.fondo1{
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 40% 60% 
+}
+/*Imagen del anuncio 2*/
+.fondo1 img{
+    height:290px;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 75%;
+    border: 1px solid black;
+}
+/*Anuncio 3*/
+.fondo2{
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 40% 60% 
+}
+/*Imagen del anuncio 3*/
+.fondo2 img{
+    height:290px;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 75%;
+    border: 1px solid black;
+}

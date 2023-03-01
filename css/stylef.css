@@ -1,0 +1,24 @@
+*{  box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    background-color: rgb(109, 163, 121);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+
+}
+#boton{
+    background-color: #aaf3ae;
+    border: 1px solid #aaf3ae;
+    color: rgb(0, 0, 0);
+}#boton:hover { 
+    background: #366639; 
+    border: 1px solid #366639;
+    color: rgb(255, 255, 255); 
+    }
+#bot{
+        background-color: #75ce87;
+        border: 1px solid #f3eeaa;
+}
+ 
